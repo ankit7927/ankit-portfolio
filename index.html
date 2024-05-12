@@ -1,353 +1,317 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Ankit Prajapati</title>
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="main-content">
-    <header class="container header active" id="home">
-        <div class="header-content">
-            <div class="left-header">
-                <div class="h-shape"></div>
-                <div class="image">
-                    <img src="img/me.jpg" alt="">
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark shadow-0">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="/">Ankit</a>
+                <button data-mdb-collapse-init class="navbar-toggler" type="button" data-mdb-target="#portnavbar"
+                    aria-controls="portnavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="portnavbar">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="#introduction">Introduction</a>
+                        <a class="nav-link" href="#skills">Skills</a>
+                        <a class="nav-link" href="#projects">Projects</a>
+                        <a class="nav-link" href="#achivements">Achivements</a>
+                        <a class="nav-link" href="#">Contact</a>
+                    </div>
                 </div>
             </div>
-            <div class="right-header">
-                <h1 class="name">
-                    Hi, I'm <br/><span>Ankit Prajapati</span>
-                </h1>
-                <p>
-                    I'm a Web Developer, I love to create real world projects.
-                    I'm also a Blockchain and Android devloper, I like to read book and new technology articals.
-                </p>
-                <div class="btn-con">
-                    <a class="main-btn" href="https://drive.google.com/file/d/1PHxGtp-UdjahbJiRvUOhBK0SXgo_BRQK/view" target="_blank">
-                        <span class="btn-text">Download CV</span>
-                        <span class="btn-icon"><i class="fas fa-download"></i></span>
-                    </a>
-                </div>
-            </div>
-        </div>
+        </nav>
     </header>
+
     <main>
-        <section class="container about" id="about">
-            <div class="main-title">
-                <h2>About <span>me</span><span class="bg-text">my stats</span></h2>
-            </div>
-            <div class="about-container">
-                <div class="left-about">
-                    <h4>Information About me</h4>
-                    <p>
-                        My best potential is in devloping backend application based on java, python and javascript, i also good in devloping android application. or you can say a full stack project devloper, because during my college project i had learned nosql database. and created some full stack applications to wash my hands on it.<br /> <br /> 
-                        currently i am working on my college project which is based on blockchain technology. i am making this project completly with java.
-                    </p>
-                    <div class="btn-con">
-                        <a href="#" class="main-btn">
-                            <span class="btn-text">Download CV</span>
-                            <span class="btn-icon"><i class="fas fa-download"></i></span>
-                        </a>
-                    </div>
+        <section class="py-3" id="introduction">
+            <div class="container">
+                <div>
+                    <span class="h5"><span class="header">"introduction"</span> : {</span>
                 </div>
-                <div class="right-about">
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text">5</p>
-                            <p class="small-text">Projects<br />Completed</p>
+                <div class="px-4 py-4 ">
+                    <div class="row g-4">
+                        <div class="col-md-4">
+                            <img src="https://avatars.githubusercontent.com/u/77499177?v=4"
+                                alt="Ankit Prajapati Profile Image" class="img-fluid rounded">
                         </div>
-                    </div>
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text">2+</p>
-                            <p class="small-text">Years of<br />experience</p>
-                        </div>
-                    </div>
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text">4+</p>
-                            <p class="small-text">worked with<br />languages</p>
-                        </div>
-                    </div>
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text">3+</p>
-                            <p class="small-text">Worked with<br />frameworks</p>
+
+                        <div class="col-lg-8">
+                            <p><span class="key">"name"</span> : <span class="value">"Ankit Prajapati"</span>,</p>
+                            <p><span class="key">"age"</span> : 22,</p>
+                            <p><span class="key">"education"</span> : <span class="value">"pursuing B.Tech from mumbai
+                                    university"</span>,</p>
+                            <p><span class="key">"address"</span> : <span class="value">"mumbai, maharshtra,
+                                    india"</span>,</p>
+                            <p><span class="key">"email"</span> : <span class="value">"ap8424856@gmail.com"</span>,</p>
+                            <p><span class="key">"hobbies"</span> : [<span class="value">"coding"</span>, <span
+                                    class="value">"cricket"</span>, <span class="value">"songs"</span>, <span
+                                    class="value">"travelling"</span>],</p>
+                            <p><span class="key">"contact"</span> : [<span class="value"> <a
+                                        href="https://www.instagram.com/ankit742.7">instagram</a> </span>, <span
+                                    class="value"> <a href="https://www.linkedin.com/in/ankit742">linkedin</a> </span>,
+                                <span class="value"> <a href="https://github.com/ankit7927">github</a> </span>]</p>
+                            <p><span class="key">"fact"</span> : <span class="value">"i hate css"</span>,</p>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="about-stats">
-                <h4 class="stat-title">My Skills</h4>
-                <div class="progress-bars">
-                    <div class="progress-bar">
-                        <p class="prog-title">html5</p>
-                        <div class="progress-con">
-                            <p class="prog-text">80%</p>
-                            <div class="progress">
-                                <span class="html"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">css3</p>
-                        <div class="progress-con">
-                            <p class="prog-text">75%</p>
-                            <div class="progress">
-                                <span class="css"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">javascript</p>
-                        <div class="progress-con">
-                            <p class="prog-text">75%</p>
-                            <div class="progress">
-                                <span class="js"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">ReactJS</p>
-                        <div class="progress-con">
-                            <p class="prog-text">75%</p>
-                            <div class="progress">
-                                <span class="react"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">NodeJS</p>
-                        <div class="progress-con">
-                            <p class="prog-text">87%</p>
-                            <div class="progress">
-                                <span class="node"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Python</p>
-                        <div class="progress-con">
-                            <p class="prog-text">70%</p>
-                            <div class="progress">
-                                <span class="python"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Java</p>
-                        <div class="progress-con">
-                            <p class="prog-text">70%</p>
-                            <div class="progress">
-                                <span class="python"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Spring Boot</p>
-                        <div class="progress-con">
-                            <p class="prog-text">70%</p>
-                            <div class="progress">
-                                <span class="python"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <h4 class="stat-title">My Timeline</h4>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2022 - present</p>
-                    <h5>AWS<span> - AWS-Academy</span></h5>
-                    <p>
-                        Certified AWS Intern..
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2022 - present</p>
-                    <h5>B.Tech<span> - SLRTCE</span></h5>
-                    <p>
-                        persuing my engineering in Electronics and Computer Science.    
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2018 - 2020</p>
-                    <h5>HSC<span> - Sheth Gopalji Hemaraj</span></h5>
-                    <p>
-                        completed my HSC from Sheth Gopalji Hemaraj college of science.
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2017</p>
-                    <h5>Primary & Secondry<span> TES</span></h5>
-                    <p>
-                        Completed my primary and secondry education from Tambe Education Society.
-                    </p>
+
+                <div>
+                    <span class="h5">},</span>
                 </div>
             </div>
         </section>
-        <section class="container" id="portfolio">
-            <div class="main-title">
-                <h2>My <span>Portfolio</span><span class="bg-text">My Work</span></h2>
+
+        <section class="py-3" id="skills">
+            <div class="container">
+                <span class="h5"><span class="header">"skills"</span> : {</span>
             </div>
-            <p class="port-text">
-                Here is some of my work that I've done in various programming languages.
-            </p>
-            <div class="blogs">
-                    <div class="blog">
-                        <a href="#" target="_blank">
-                            <img src="img/notes.webp" alt="">
-                            <div class="blog-text">
-                                <h4>
-                               Notes & Reminder
-                                </h4>
-                                <p>
-                                This is my first android app, this app is build with java, this is my learing project, i had publish this app on Amazon App Store
-                                </p>
+
+            <div class="container py-4 px-2">
+                <div class="row row-cols-2 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="container">
+                            <span class="h6"><span class="key">"languages"</span> : {</span>
                         </div>
-                        </a>
+                        <div class="justify-content-start text-start px-4 py-2">
+                            <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>JAVA</button>
+                            <button type="button" class="btn btn-tag  btn-rounded"
+                                data-mdb-ripple-init>JAVASCRIPT</button>
+                            <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>PYTHON</button>
+                            <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>C++</button>
+                            <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>KOTLIN</button>
+                        </div>
+                        <div class="container">
+                            <span class="h6">},</span>
+                        </div>
                     </div>
-                    <div class="blog">
-                        <a href="https://github.com/ankit84-tech/wallEX-backend" target="_blank">
-                            <img src="img/walls.jpg" alt="">
-                            <div class="blog-text">
-                                <h4>
-                                    Wall-EX
-                                </h4>
-                                <p>
-                                This is my first Spring-Boot project, this is a restfull api to perform CRUD operations with images, i had publish this project on Github
-                                </p>
+
+                    <div class="col">
+                        <div class="container">
+                            <span class="h6"><span class="key">"frameworks"</span> : {</span>
                         </div>
-                        </a>
+                        <div class="justify-content-start text-start px-4 py-2">
+                            <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>ANDROID</button>
+                            <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>JETPACK
+                                COMPOSE</button>
+                            <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>FLUTTER</button>
+                            <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>NEXT.JS</button>
+                        </div>
+                        <div class="container">
+                            <span class="h6">},</span>
+                        </div>
                     </div>
-                    <div class="blog">
-                        <a href="https://github.com/ankit84-tech/cLancerBank" target="_blank">
-                            <img src="img/bank.png" alt="">
-                            <div class="blog-text">
-                                <h4>
-                                    Online Banking
-                                </h4>
-                                <p>
-                                A full stack python project to simulate online banking, i had used Fast-API and Tkinter for develope this project.
-                                </p>
+
+                    <div class="col">
+                        <div class="container">
+                            <span class="h6"><span class="key">"frontend"</span> : {</span>
                         </div>
-                        </a>
+                        <div class="justify-content-start text-start px-4 py-2">
+                            <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>HTML</button>
+                            <button type="button" class="btn btn-tag  btn-rounded"
+                                data-mdb-ripple-init>BOOTSTRAP</button>
+                            <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>REACT</button>
+                            <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>REDUX</button>
+                            <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>MATERIAL
+                                UI</button>
+                        </div>
+                        <div class="container">
+                            <span class="h6">},</span>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="container">
+                            <span class="h6"><span class="key">"backend"</span> : {</span>
+                        </div>
+                        <div class="justify-content-start text-start px-4 py-2">
+                            <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>NODE.JS</button>
+                            <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>EXPRESS</button>
+                            <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>SPRING
+                                BOOT</button>
+                            <button type="button" class="btn btn-tag  btn-rounded"
+                                data-mdb-ripple-init>FIREBASE</button>
+                            <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>DJANGO</button>
+                            <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>FLASK</button>
+                        </div>
+                        <div class="container">
+                            <span class="h6">},</span>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="container">
+                            <span class="h6"><span class="key">"database"</span> : {</span>
+                        </div>
+                        <div class="justify-content-start text-start px-4 py-2">
+                            <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>MONGODB</button>
+                            <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>MYSQL</button>
+                            <button type="button" class="btn btn-tag  btn-rounded"
+                                data-mdb-ripple-init>POSTGRESQL</button>
+                            <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>REDIS</button>
+                        </div>
+                        <div class="container">
+                            <span class="h6">},</span>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="container">
+                            <span class="h6"><span class="key">"devops"</span> : {</span>
+                        </div>
+                        <div class="justify-content-start text-start px-4 py-2">
+                            <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>AWS</button>
+                            <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>LINUX</button>
+                            <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>GIT</button>
+                            <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>DOCKER</button>
+                            <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>NGINX</button>
+                        </div>
+                        <div class="container">
+                            <span class="h6">},</span>
+                        </div>
                     </div>
                 </div>
+            </div>
+
+            <div class="container">
+                <span class="h5">},</span>
+            </div>
         </section>
-        
-        <section class="container contact" id="contact">
-            <div class="contact-container">
-                <div class="main-title">
-                    <h2>Contact <span>Me</span><span class="bg-text">Contact</span></h2>
-                </div>
-                <div class="contact-content-con">
-                    <div class="left-contact">
-                        <h4>Contact me here</h4>
-                        <p>
-                            Thanks for visiting on my page, see you again...
-                        </p>
-                        <div class="contact-info">
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-map-marker-alt"></i>
-                                    <span>Location</span>
-                                </div>
-                                <p>
-                                    : Mumbai, Maharshtra, India
+
+        <section class="py-3" id="projects">
+            <div class="container">
+                <span class="h5"><span class="header">"top projects"</span> : {</span>
+            </div>
+            <div class="container py-4 px-2">
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                        <div class="py-2 px-3">
+                            <div class="h6">{</div>
+                            <div class="px-3">
+                                <p><span class="key">"name"</span> : <span class="value">"Save It."</span>,</p>
+                                <p><span class="key">"about"</span> : <span class="value">"A notes taking android
+                                        appliction for daily use."</span>,</p>
+                                <p><span class="key">"tech stack"</span> : [<span class="value">"Android"</span>, <span
+                                        class="value">"Jetpack Compose"</span>, <span class="value">"Room
+                                        Database"</span>, <span class="value">"MVVM"</span>],</p>
+                                <p><span class="key">"links"</span> : [ <a
+                                        href="https://play.google.com/store/apps/details?id=com.x64technology.saveit">playstore,
+                                    </a>
+                                    <a href="">github</a>]
                                 </p>
                             </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-envelope"></i>
-                                    <span>Email</span>
-                                </div>
-                                <p>
-                                    <span>: code7lancer@gmail.com</span>
-                                </p>
+                            <div class="h6">},</div>
+                        </div><span class="key">
+                    </div>
+
+                    <div class="col">
+                        <div class="py-2 px-3">
+                            <div class="h6">{</div>
+                            <div class="px-3">
+                                <p><span class="key">"name"</span> : <span class="value">"Question"</span>,</p>
+                                <p><span class="key">"about"</span> : <span class="value">"A stackoverflow platform
+                                        replica for QNAs."</span>,</p>
+                                <p><span class="key">"tech stack"</span> : [<span class="value">"React"</span>, <span
+                                        class="value">"Redux"</span>, <span class="value">"Express"</span>, <span
+                                        class="value">"MongoDB"</span>, <span class="value">"Node.js"</span>],</p>
+                                <p><span class="key">"links"</span> : [ <a href="https://ques.netlify.app/">site,</a> <a
+                                        href="">github</a> ]</p>
                             </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-user-graduate"></i>
-                                    <span>Education</span>
-                                </div>
-                                <p>
-                                    <span>: Shree L.R. Tiwari College of Engineering, Miraroad</span>
-                                </p>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-mobile"></i>
-                                    <span>Mobile Number</span>
-                                </div>
-                                <p>
-                                    <span>: 7715870068</span>
-                                </p>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-globe-africa"></i>
-                                    <span>Languages</span>
-                                </div>
-                                <p>
-                                    <span>: Hindi, English</span>
-                                </p>
-                            </div>
+                            <div class="h6">},</div>
                         </div>
-                        <div class="contact-icons">
-                            <div class="contact-icon">
-                                <a href="https://www.instagram.com/ankit74_2" target="_blank">
-                                    <i class="fab fa-instagram"></i>
-                                </a>
-                                <a href="https://github.com/ankit84-tech" target="_blank">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                                <a href="https://www.youtube.com/@x64-tech18" target="_blank">
-                                    <i class="fab fa-youtube"></i>
-                                </a>
+                    </div>
+
+                    <div class="col">
+                        <div class="py-2 px-3">
+                            <div class="h6">{</div>
+                            <div class="px-3">
+                                <p><span class="key">"name"</span> : <span class="value">"LineX"</span>,</p>
+                                <p><span class="key">"about"</span> : <span class="value">"An instant messaging app like
+                                        whatsapp"</span>,</p>
+                                <p><span class="key">"tech stack"</span> : [<span class="value">"Android"</span>, <span
+                                        class="value">"Socket.io"</span>, <span class="value">"Express"</span>, <span
+                                        class="value">"MongoDB"</span>, <span class="value">"Node.js"</span>],</p>
+                                <p><span class="key">"links"</span> : [ <a
+                                        href="https://github.com/ankit7927/LineX.git">github</a> ]</p>
                             </div>
+                            <div class="h6">},</div>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="container">
+                <span class="h5">},</span>
+            </div>
+        </section>
+
+        <section class="py-3" id="achivements">
+            <div class="container">
+                <span class="h5"><span class="header">"achivements"</span> : {</span>
+            </div>
+            <div class="container py-4">
+                <div class="px-3 py-2">
+                    <div class="h6">{</div>
+                    <div class="px-3">
+                        <p><span class="key">"name"</span> : <span class="value">"Modern Election System"</span>,</p>
+                        <p><span class="key">"about"</span> : <span class="value">"Blockchain based election system
+                                built to reduce the drawbacks of traditional election system"</span>,</p>
+                        <p><span class="key">"achivment"</span> : <span class="value">"Published an IEEE research paper
+                                in
+                                ICOEI conference (2023)"</span>,</p>
+                        <p><span class="key">"certificate"</span> : <span class="value"><a
+                                    href="https://drive.google.com/file/d/1LsegG8Hg92nLxQosYwwEC2gkRXK8SPHv/view">google
+                                    drive</a></span>,</p>
+                        <p><span class="key">"tech stack"</span> : [<span class="value">"Spring Boot"</span>, <span
+                                class="value">"Postgresql"</span>, <span class="value">"Hyperledger Fabric"</span>],</p>
+                    </div>
+                    <div class="h6">},</div>
+                </div>
+
+                <div class="px-3 py-2">
+                    <div class="h6">{</div>
+                    <div class="px-3">
+                        <p><span class="key">"name"</span> : <span class="value">"Gamify Fitness"</span>,</p>
+                        <p><span class="key">"about"</span> : <span class="value">"A fitness based app to encourage
+                                people
+                                to stay fit and follow healthy habbits in
+                                playfull way"</span>,</p>
+                        <p><span class="key">"achivment"</span> : <span class="value">"Proposed this app in
+                                hackethon (KNOWCODE 24) by Society of Data Science at K.J. Somaiya Institue of
+                                technology"</span>,</p>
+                        <p><span class="key">"certificate"</span> : <span class="value"><a
+                                    href="https://drive.google.com/file/d/1uVtkPThy6V4lT6IS_cvK7K9Trot_Io71/view?usp=sharing">google
+                                    drive</a> </span>,</p>
+                        <p><span class="key">"tech stack"</span> : [<span class="value">"Flutter"</span>, <span
+                                class="value">"Express"</span>, <span class="value">"Mongodb"</span>, <span
+                                class="value">"Node.js"</span>, <span class="value">"NGINX"</span>, <span
+                                class="value">"AWS"</span>],</p>
+                    </div>
+                    <div class="h6">},</div>
+                </div>
+            </div>
+            <div class="container">
+                <span class="h5">},</span>
             </div>
         </section>
     </main>
 
-    <div class="controls">
-        <div class="control active-btn" data-id="home" >
-            <i class="fas fa-home"></i>
-        </div>
-        <div class="control" data-id="about">
-            <i class="fas fa-user"></i>
-        </div>
-        <div class="control" data-id="portfolio">
-            <i class="fas fa-briefcase"></i>
-        </div>
-        <div class="control" data-id="contact">
-            <i class="fas fa-envelope-open"></i>
-        </div>
-    </div>
-    <div class="theme-btn">
-        <i class="fas fa-adjust"></i>
-    </div>
-    <script src="app.js"></script>
+
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.umd.min.js"></script>
 </body>
+
 </html>
