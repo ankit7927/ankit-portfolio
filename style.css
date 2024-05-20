@@ -1,34 +1,21 @@
-body {
-    background-color: #00002c;
-    color: white;
-}
-
-.navbar {
-    background-color: #00002c;
-}
-
 .btn-tag {
-    text-transform: capitalize !important;
-    margin-bottom: 10px;
-    color: #eeff04;
+    margin-bottom: 8px;
+    margin-right: 6px;
     font-weight: bold;
 }
 
 .value {
-    color: #eeff04;
-    font-size:large;
-    font-weight: bold;
-    
+    font-size: larger;
+    font-weight: bolder;
+
 }
 
 .key {
-    color: #8773e4;
-    font-size: medium;
-    font-weight: 600;
+    font-size: larger;
+    font-weight: 500;
 }
 
 .header {
-    color: #8773e4;
-    font-size:larger;
-    font-weight: 800;
+    font-size: larger;
+    font-weight: 600;
 }
