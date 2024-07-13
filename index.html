@@ -1,251 +1,790 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta Name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- metas -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="Ankit Prajapati">
+    <meta name="description" content="Ankit Prajapati">
+    <!-- title -->
     <title>Ankit Prajapati</title>
-
-    <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
-    <!-- MDB -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <!-- plugin CSS -->
+    <link href="static/plugin/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/plugin/font-awesome/css/all.min.css" rel="stylesheet">
+    <link href="static/plugin/et-line/style.css" rel="stylesheet">
+    <link href="static/plugin/themify-icons/themify-icons.css" rel="stylesheet">
+    <link href="static/plugin/owl-carousel/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="static/plugin/magnific/magnific-popup.css" rel="stylesheet">
+    <link href="static/plugin/ytplayer/css/jquery.mb.YTPlayer.min.css" rel="stylesheet">
+    <link href="static/plugin/scroll/jquery.mCustomScrollbar.min.css" rel="stylesheet">
+    <!-- theme css -->
+    <link href="static/style/master.css" rel="stylesheet">
 </head>
+<!-- Body Start -->
 
-<body>
+<body data-spy="scroll" data-target="#navbar-collapse-toggle" data-offset="70">
+    <!-- page loading -->
+    <div id="loading">
+        <div class="load-circle"><span class="one"></span></div>
+    </div>
     <header>
-        <nav class="navbar navbar-expand-lg shadow-0">
-            <div class="container">
-                <a class="navbar-brand fw-bold" href="/">Ankit</a>
-                <button data-mdb-collapse-init class="navbar-toggler" type="button" data-mdb-target="#portnavbar"
-                    aria-controls="portnavbar" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-bars"></i>
+        <nav class="navbar header-nav header-white header-transparent navbar-expand-lg">
+            <div class="container-fluid">
+                <!-- Brand -->
+                <a class="navbar-brand" href="#">Ankit <span></span></a>
+                <!-- / -->
+                <!-- Mobile Toggle -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse-toggle" aria-controls="navbar-collapse-toggle" aria-expanded="false" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </button>
-                <div class="collapse navbar-collapse" id="portnavbar">
-                    <div class="navbar-nav">
-                        <a class="nav-link" href="#introduction">Introduction</a>
-                        <a class="nav-link" href="#skills">Skills</a>
-                        <a class="nav-link" href="#projects">Projects</a>
-                        <a class="nav-link" href="#achivements">Achivements</a>
-                        <a class="nav-link" href="#">Contact</a>
-                    </div>
+                <!-- / -->
+                <!-- Top Menu -->
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse-toggle">
+                    <ul class="navbar-nav ml-auto">
+                        <li><a class="nav-link active" href="#home"><span>Home</span></a></li>
+                        <li><a class="nav-link" href="#about"><span>About Us</span></a></li>
+                        <li><a class="nav-link" href="#services"><span>Services</span></a></li>
+                        <li><a class="nav-link" href="#work"><span>Portfolio</span></a></li>
+                        <li><a class="nav-link" href="#blog"><span>Blog</span></a></li>
+                        <li><a class="nav-link" href="#contactus"><span>Contact</span></a></li>
+                    </ul>
                 </div>
+                <!-- / -->
             </div>
+            <!-- Container -->
         </nav>
+        <!-- Navbar -->
     </header>
-
+    <!-- Main -->
     <main>
-        <section class="py-3" id="introduction">
+        <!-- Home Banner -->
+        <section id="home" class="home-banner-01 parallax" style="background-image: url(static/img/banner-image.jpg);">
             <div class="container">
-                <div>
-                    <span class="h5"><span class="header">Introduction : {</span> </span>
-                </div>
-                <div class="px-4 py-4 ">
-                    <div class="row g-4">
-                        <div class="col-md-4">
-                            <img src="https://avatars.githubusercontent.com/u/77499177?v=4"
-                                alt="Ankit Prajapati Profile Image" class="img-fluid rounded">
-                        </div>
-
-                        <div class="col-lg-8">
-                            <p><span class="key">Name :</span> <span class="value">Ankit Prajapati</span></p>
-                            <p><span class="key">Age :</span> <span class="value">22</span> </p>
-                            <p><span class="key">Education :</span> <span class="value">Pursuing B.Tech from mumbai
-                                    university</span></p>
-                            <p><span class="key">Address :</span> <span class="value">Mumbai, Maharshtra,
-                                    India</span></p>
-                            <p><span class="key">Email :</span> <span class="value">ap8424856@gmail.com</span>,</p>
-                            <p><span class="key">Hobbies :</span> <span class="value">[ Coding, Cricket, Congs,
-                                    Travelling ]</span> </p>
-                            <p><span class="key">Contact :</span> <span class="value"> [ <a
-                                        href="https://www.instagram.com/ankit742.7">Instagram</a>, <a
-                                        href="https://www.linkedin.com/in/ankit742">Linkedin</a>, <a
-                                        href="https://github.com/ankit7927">Github</a> ]</span>
-                            </p>
-                            <p><span class="key">Fact</span> : <span class="value">I don't like css 😵‍💫</span>,</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-                    <span class="h5"><span class="header">}, </span> </span>
-                </div>
-            </div>
-        </section>
-
-        <section class="py-3" id="skills">
-            <div class="container">
-                <span class="h5"><span class="header">Skills : [</span></span>
-            </div>
-
-            <div class="container py-2 px-2">
-
-                <div class="justify-content-start text-start px-4 py-2">
-                    <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>JAVA</button>
-                    <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>JAVASCRIPT</button>
-                    <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>PYTHON</button>
-                    <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>C++</button>
-
-                    <span></span>
-
-                    <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>JETPACK
-                        COMPOSE</button>
-                    <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>FLUTTER</button>
-
-                    <span></span>
-
-                    <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>HTML</button>
-                    <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>BOOTSTRAP</button>
-                    <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>REACT</button>
-                    <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>REDUX</button>
-
-                    <span></span>
-
-                    <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>NODE.JS</button>
-                    <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>EXPRESS</button>
-                    <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>FIREBASE</button>
-                    <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>DJANGO</button>
-
-                    <span></span>
-
-                    <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>MONGODB</button>
-                    <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>MYSQL</button>
-                    <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>POSTGRESQL</button>
-
-                    <span></span>
-
-                    <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>AWS</button>
-                    <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>DOCKER</button>
-                    <button type="button" class="btn btn-tag  btn-rounded" data-mdb-ripple-init>NGINX</button>
-                </div>
-            </div>
-
-            <div class="container">
-                <span class="h5"><span class="header">], </span></span>
-            </div>
-        </section>
-
-        <section class="py-3" id="projects">
-            <div class="container">
-                <span class="h5"><span class="header">Top Projects : {</span> </span>
-            </div>
-            <div class="container py-4 px-2">
-                <div class="row row-cols-1 row-cols-md-2 g-4">
-                    <div class="col">
-                        <div class="py-2 px-3">
-                            <div class="h6">{</div>
-                            <div class="px-3">
-                                <p><span class="key">Name : </span> <span class="value">Save It.</span></p>
-                                <p><span class="key">About : </span> <span class="value">A notes taking android
-                                        appliction for daily use.</span></p>
-                                <p><span class="key">Tech Stack : </span> <span class="value">[ Android</span> <span
-                                        class="value">Jetpack Compose,</span> <span class="value">Room
-                                        Database,</span> <span class="value">MVVM ]</span></p>
-                                <p><span class="key">Links :</span> <span class="value"> [ <a
-                                            href="https://play.google.com/store/apps/details?id=com.x64technology.saveit">playstore,
-                                        </a>
-                                        <a href="">github</a>] </span>
-                                </p>
+                <div class="row min-vh-100 align-items-center">
+                    <div class="col-lg-12">
+                        <div class="ht-text">
+                            <h1>Hello,<br /> I'm Ankit Prajapati a <br /> Software Developer</h1>
+                            <div class="btn-bar">
+                                <a href="#contactus" class="px-btn white">
+                                    <span>Contact Us</span>
+                                    <i class="arrow"></i>
+                                </a>
                             </div>
-                            <div class="h6">},</div>
-                        </div><span class="key">
-                    </div>
-
-                    <div class="col">
-                        <div class="py-2 px-3">
-                            <div class="h6">{</div>
-                            <div class="px-3">
-                                <p><span class="key">Name : </span> <span class="value">Question</span>,</p>
-                                <p><span class="key">About : </span> <span class="value">A stackoverflow platform
-                                        replica for QNAs.</span></p>
-                                <p><span class="key">Tech Stack : </span> <span class="value">[ React,</span> <span
-                                        class="value">Redux,</span> <span class="value">Express,</span> <span
-                                        class="value">MongoDB,</span> <span class="value">Node.js ]</span></p>
-                                <p><span class="key">Links : </span> <span class="value"> [ <a
-                                            href="https://ques.netlify.app/">site,</a> <a href="">github</a> ] </span>
-                                </p>
-                            </div>
-                            <div class="h6">},</div>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="py-2 px-3">
-                            <div class="h6">{</div>
-                            <div class="px-3">
-                                <p><span class="key">Name : </span><span class="value">LineX</span></p>
-                                <p><span class="key">About : </span><span class="value">An instant messaging app like
-                                        whatsapp</span>,</p>
-                                <p><span class="key">Tech Stack :</span><span class="value"> [Android, Socket.io,
-                                        "Express, MongoDB, Node.js ]</span></p>
-                                <p><span class="key">Links : </span> <span class="value"> [ <a
-                                            href="https://github.com/ankit7927/LineX.git">github</a> ] </span></p>
-                            </div>
-                            <div class="h6">},</div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="container">
-                <span class="h5"><span class="header">}, </span> </span>
+            <div class="go-to go-to-next">
+                <a href="#about">
+                    <span></span>
+                </a>
             </div>
         </section>
-
-        <section class="py-3" id="achivements">
+        <!-- End Home Banner -->
+        <!-- About us -->
+        <section class="section about-section" id="about">
             <div class="container">
-                <span class="h5"><span class="header">Achivements : {</span></span>
-            </div>
-            <div class="container py-4">
-                <div class="px-3 py-2">
-                    <div class="h6">{</div>
-                    <div class="px-3">
-                        <p><span class="key">Name : </span><span class="value">Modern Election System</span>,</p>
-                        <p><span class="key">About : </span><span class="value">Blockchain based election system
-                                built to reduce the drawbacks of traditional election system</span></p>
-                        <p><span class="key">Achivment : </span><span class="value">Published an IEEE research paper
-                                in
-                                ICOEI conference (2023)</span>,</p>
-                        <p><span class="key">Certificate : </span><span class="value"><a
-                                    href="https://drive.google.com/file/d/1LsegG8Hg92nLxQosYwwEC2gkRXK8SPHv/view">google
-                                    drive</a></span></p>
-                        <p><span class="key">Tech Stack :</span> <span class="value"> [ Spring Boot, Postgresql,
-                                Hyperledger Fabric ]</p>
+                <div class="row align-items-start flex-row-reverse">
+                    <div class="col-lg-7 col-xl-8 m-15px-tb">
+                        <div class="about-text go-to">
+                            <h3 class="dark-color">About Me</h3>
+                            <h6 class="theme-color lead">A passionated software developer</h6>
+                            <p>I <mark>love</mark> to design and develop software application for web and mobile.</p>
+                            <div class="row about-list">
+                                <div class="col-md-6">
+                                    <div class="media">
+                                        <label>Education</label>
+                                        <p>Persuing B.Tech </p>
+                                    </div>
+                                    <div class="media">
+                                        <label>Age</label>
+                                        <p>21 Yr</p>
+                                    </div>
+                                    <div class="media">
+                                        <label>Address</label>
+                                        <p>Mumbai, India</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="media">
+                                        <label>E-mail</label>
+                                        <p>ap8424856@gmail.com</p>
+                                    </div>
+                                    <div class="media">
+                                        <label>Phone</label>
+                                        <p>+91 8424856053</p>
+                                    </div>
+                                    <div class="media">
+                                        <label>Github</label>
+                                        <p>ankit7927</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btn-bar">
+                                <a class="px-btn theme" href="/static/resume/Ankit Resume Web.pdf" target="_blank">
+                                    <span>Download CV</span> <i class="arrow"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="h6">},</div>
-                </div>
-
-                <div class="px-3 py-2">
-                    <div class="h6">{</div>
-                    <div class="px-3">
-                        <p><span class="key">Name : </span><span class="value">Gamify Fitness</span>,</p>
-                        <p><span class="key">About : </span><span class="value">A fitness based app to encourage
-                                people
-                                to stay fit and follow healthy habbits in
-                                playfull way</span>,</p>
-                        <p><span class="key">Achivment : </span><span class="value">Proposed this app in
-                                hackathon (KNOWCODE 24) by Society of Data Science at K.J. Somaiya Institute of
-                                technology</span>,</p>
-                        <p><span class="key">Certificate : </span><span class="value"><a
-                                    href="https://drive.google.com/file/d/1uVtkPThy6V4lT6IS_cvK7K9Trot_Io71/view?usp=sharing">google
-                                    drive</a> </span></p>
-                        <p><span class="key">Tech Stack :</span> <span class="value">[ Flutter, Express, Mongodb,
-                                Node.js, NGINX, AWS ] </span></p>
+                    <div class="col-lg-3 col-xl-4 m-15px-tb">
+                        <img src="https://avatars.githubusercontent.com/u/77499177?v=4" title="" alt="">
                     </div>
-                    <div class="h6">},</div>
                 </div>
-            </div>
-            <div class="container">
-                <span class="h5"><span class="header">}</span></span>
             </div>
         </section>
+        <!-- End About us -->
+        <!-- Services -->
+        <section class="section services-section gray-bg" id="services">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7">
+                        <div class="section-title text-center">
+                            <h2>What I Do</h2>
+                            <p>I desing and develop Android and Web applications</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- feaure box -->
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="feature-box-1">
+                            <div class="icon">
+                                <i class="icon-desktop"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h5>Unique design</h5>
+                                <p>My designs are unique for every project</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / -->
+                    <!-- feaure box -->
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="feature-box-1">
+                            <div class="icon">
+                                <i class="icon-pricetags"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h5>Different Layout</h5>
+                                <p>I always try to create different layout in each project</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / -->
+                    <!-- feaure box -->
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="feature-box-1">
+                            <div class="icon">
+                                <i class="icon-chat"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h5>Make it Simple</h5>
+                                <p>Always make simple and sweet. so that debugging and testing be easy</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / -->
+                    <!-- feaure box -->
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="feature-box-1">
+                            <div class="icon">
+                                <i class="icon-mobile"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h5>Responsiveness</h5>
+                                <p>Web applications a compatible with all kind of devices</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / -->
+                    <!-- feaure box -->
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="feature-box-1">
+                            <div class="icon">
+                                <i class="icon-target"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h5>Testing for Perfection</h5>
+                                <p>Testing is best tool to ensure the appication quality</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / -->
+                    <!-- feaure box -->
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="feature-box-1">
+                            <div class="icon">
+                                <i class="icon-tools-2"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h5>Advanced Options</h5>
+                                <p>I design and develop services for customers of all sizes.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / -->
+                </div>
+            </div>
+        </section>
+        <!-- End Services -->
+        <!-- Resume -->
+        <!-- <section class="section" id="resume">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7">
+                        <div class="section-title text-center">
+                            <h2>My Experience</h2>
+                            <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-style-1 p-15px-t">
+                    <ul class="nav justify-content-center" id="pills-tab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="pills-01-tab" data-toggle="pill" href="#pills-01" role="tab" aria-controls="pills-01" aria-selected="false">
+                                Experience
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-02-tab" data-toggle="pill" href="#pills-02" role="tab" aria-controls="pills-02" aria-selected="true">
+                                Education
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-03-tab" data-toggle="pill" href="#pills-03" role="tab" aria-controls="pills-03" aria-selected="false">
+                                Skills
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-01" role="tabpanel" aria-labelledby="pills-01-tab">
+                            <div class="row">
+                                <div class="col-sm-6 col-lg-4 m-15px-tb">
+                                    <div class="resume-box">
+                                        <h4>Master in Design</h4>
+                                        <span>2008 - 2012</span>
+                                        <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 m-15px-tb">
+                                    <div class="resume-box">
+                                        <h4>Master in Design</h4>
+                                        <span>2008 - 2012</span>
+                                        <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 m-15px-tb">
+                                    <div class="resume-box">
+                                        <h4>Master in Design</h4>
+                                        <span>2008 - 2012</span>
+                                        <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-02" role="tabpanel" aria-labelledby="pills-02-tab">
+                            <div class="row">
+                                <div class="col-sm-6 col-lg-4 m-15px-tb">
+                                    <div class="resume-box-01">
+                                        <h4><label>Google Inc.</label></h4>
+                                        <h5>Senior Designer</h5>
+                                        <span>2008 - 2012</span>
+                                        <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 m-15px-tb">
+                                    <div class="resume-box-01">
+                                        <h4><label>Bootstrap.</label></h4>
+                                        <h5>Senior Designer</h5>
+                                        <span>2008 - 2012</span>
+                                        <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-4 m-15px-tb">
+                                    <div class="resume-box-01">
+                                        <h4><label>pxdraft pvt.</label></h4>
+                                        <h5>Senior Designer</h5>
+                                        <span>2008 - 2012</span>
+                                        <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-03" role="tabpanel" aria-labelledby="pills-03-tab">
+                            <div class="row justify-content-around">
+                                <div class="col-md-6 col-lg-5 m-15px-tb">
+                                    <div class="skill-lt">
+                                        <h6 class="dark-color">HTML</h6>
+                                        <div class="skill-bar">
+                                            <div class="skill-bar-in theme-bg" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100">
+                                                <span>92%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skill-lt">
+                                        <h6 class="dark-color">CSS3</h6>
+                                        <div class="skill-bar">
+                                            <div class="skill-bar-in theme-bg" role="progressbar" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100">
+                                                <span>75%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skill-lt">
+                                        <h6 class="dark-color">Javascript</h6>
+                                        <div class="skill-bar">
+                                            <div class="skill-bar-in theme-bg" role="progressbar" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100">
+                                                <span>86%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skill-lt">
+                                        <h6 class="dark-color">AngularJS</h6>
+                                        <div class="skill-bar">
+                                            <div class="skill-bar-in theme-bg" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100">
+                                                <span>88%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                </div>
+                            
+                                <div class="col-md-6 col-lg-5 m-15px-tb">
+                                    <div class="skill-lt">
+                                        <h6 class="dark-color">Graphic Design</h6>
+                                        <div class="skill-bar">
+                                            <div class="skill-bar-in theme-bg" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100">
+                                                <span>92%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skill-lt">
+                                        <h6 class="dark-color">WordPress</h6>
+                                        <div class="skill-bar">
+                                            <div class="skill-bar-in theme-bg" role="progressbar" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100">
+                                                <span>75%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skill-lt">
+                                        <h6 class="dark-color">Magento</h6>
+                                        <div class="skill-bar">
+                                            <div class="skill-bar-in theme-bg" role="progressbar" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100">
+                                                <span>86%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skill-lt">
+                                        <h6 class="dark-color">UI/UX</h6>
+                                        <div class="skill-bar">
+                                            <div class="skill-bar-in theme-bg" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100">
+                                                <span>88%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- End Resume -->
+        <!-- Portfolio -->
+        <section class="section portfolio-section" id="work">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7">
+                        <div class="section-title text-center">
+                            <h2>Portfolio</h2>
+                            <p>This are my some of projects that i have build</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-content grid-gutter-lg grid-col-3 lightbox-gallery">
+                    <div class="grid-item product branding">
+                        <div class="portfolio-box-01">
+                            <div class="portfolio-info">
+                                <h5><a href="#">LineX</a></h5>
+                                <span>Chatting Android app </span>
+                            </div>
+                            <div class="portfolio-img">
+                                <img src="https://sendbird.imgix.net/cms/Blog-cover_best-chat-apps-to-know.jpg" title="" alt="">
+                                <div class="portfolio-icon d-flex align-items-end justify-content-center">
+                                    <a href="https://sendbird.imgix.net/cms/Blog-cover_best-chat-apps-to-know.jpg" class="px-btn white gallery-link">
+                                        <span>View</span>
+                                        <i class="arrow"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- grid item -->
+                    <div class="grid-item product branding">
+                        <div class="portfolio-box-01">
+                            <div class="portfolio-info">
+                                <h5><a href="#">Save It.</a></h5>
+                                <span>Notes taking app</span>
+                            </div>
+                            <div class="portfolio-img">
+                                <img src="https://collegeinfogeek.com/wp-content/uploads/2020/01/best-note-taking-apps-for-ipad-featured.jpg" title="" alt="">
+                                <div class="portfolio-icon d-flex align-items-end justify-content-center">
+                                    <a href="https://collegeinfogeek.com/wp-content/uploads/2020/01/best-note-taking-apps-for-ipad-featured.jpg" class="px-btn white gallery-link">
+                                        <span>View</span>
+                                        <i class="arrow"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- grid item -->
+                    <div class="grid-item product branding">
+                        <div class="portfolio-box-01">
+                            <div class="portfolio-info">
+                                <h5><a href="#">Intune</a></h5>
+                                <span>Full Stack Messaging app</span>
+                            </div>
+                            <div class="portfolio-img">
+                                <img src="https://media.licdn.com/dms/image/D5612AQE1s8jfFmrSGA/article-cover_image-shrink_720_1280/0/1702272490512?e=1726099200&v=beta&t=n5M-8OFiMXc_sGxlZMj6f7GkzxNEAdzIvUj9DeCVcGE" title="" alt="">
+                                <div class="portfolio-icon d-flex align-items-end justify-content-center">
+                                    <a href="https://media.licdn.com/dms/image/D5612AQE1s8jfFmrSGA/article-cover_image-shrink_720_1280/0/1702272490512?e=1726099200&v=beta&t=n5M-8OFiMXc_sGxlZMj6f7GkzxNEAdzIvUj9DeCVcGE" class="px-btn white gallery-link">
+                                        <span>View</span>
+                                        <i class="arrow"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- grid item -->
+                    <div class="grid-item product branding">
+                        <div class="portfolio-box-01">
+                            <div class="portfolio-info">
+                                <h5><a href="#">Question / Domanda</a></h5>
+                                <span>QnA platform like stack overflow</span>
+                            </div>
+                            <div class="portfolio-img">
+                                <img src="https://datascientest.com/en/wp-content/uploads/sites/9/2024/03/Stackoverflow-768x422-1.jpg" title="" alt="">
+                                <div class="portfolio-icon d-flex align-items-end justify-content-center">
+                                    <a href="https://datascientest.com/en/wp-content/uploads/sites/9/2024/03/Stackoverflow-768x422-1.jpg" class="px-btn white gallery-link">
+                                        <span>View</span>
+                                        <i class="arrow"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- grid item -->
+                    <div class="grid-item product branding">
+                        <div class="portfolio-box-01">
+                            <div class="portfolio-info">
+                                <h5><a href="#">Modern Election</a></h5>
+                                <span>Voting app</span>
+                            </div>
+                            <div class="portfolio-img">
+                                <img src="https://www.computerworld.com/wp-content/uploads/2024/03/cw_mobile_voting_by_inueng_and_filo_gettyimages_3x2_1200x800-100772605-orig.jpg?quality=50&strip=all" title="" alt="">
+                                <div class="portfolio-icon d-flex align-items-end justify-content-center">
+                                    <a href="https://www.computerworld.com/wp-content/uploads/2024/03/cw_mobile_voting_by_inueng_and_filo_gettyimages_3x2_1200x800-100772605-orig.jpg?quality=50&strip=all" class="px-btn white gallery-link">
+                                        <span>View</span>
+                                        <i class="arrow"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- grid item -->
+                    <div class="grid-item product branding">
+                        <div class="portfolio-box-01">
+                            <div class="portfolio-info">
+                                <h5><a href="#">Gamify Fitness</a></h5>
+                                <span>fitness based app to encourage people to stay fit and follow healthy habbits</span>
+                            </div>
+                            <div class="portfolio-img">
+                                <img src="https://www.unifiedinfotech.net/wp-content/uploads/2019/06/health-and-fitness-tracking-app-development.jpg" title="" alt="">
+                                <div class="portfolio-icon d-flex align-items-end justify-content-center">
+                                    <a href="https://www.unifiedinfotech.net/wp-content/uploads/2019/06/health-and-fitness-tracking-app-development.jpg" class="px-btn white gallery-link">
+                                        <span>View</span>
+                                        <i class="arrow"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- grid item -->
+                    <div class="grid-item product branding">
+                        <div class="portfolio-box-01">
+                            <div class="portfolio-info">
+                                <h5><a href="#">Todo app</a></h5>
+                                <span>practice todo app</span>
+                            </div>
+                            <div class="portfolio-img">
+                                <img src="https://www.freecodecamp.org/news/content/images/2021/10/todo-image.png" title="" alt="">
+                                <div class="portfolio-icon d-flex align-items-end justify-content-center">
+                                    <a href="https://www.freecodecamp.org/news/content/images/2021/10/todo-image.png" class="px-btn white gallery-link">
+                                        <span>View</span>
+                                        <i class="arrow"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- grid item -->
+                    <div class="grid-item product branding">
+                        <div class="portfolio-box-01">
+                            <div class="portfolio-info">
+                                <h5><a href="#">Recipe Finder</a></h5>
+                                <span>recipe finder app</span>
+                            </div>
+                            <div class="portfolio-img">
+                                <img src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpg?quality=90&resize=556,505" title="" alt="">
+                                <div class="portfolio-icon d-flex align-items-end justify-content-center">
+                                    <a href="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpg?quality=90&resize=556,505" class="px-btn white gallery-link">
+                                        <span>View</span>
+                                        <i class="arrow"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- grid item -->
+                    <div class="grid-item product branding">
+                        <div class="portfolio-box-01">
+                            <div class="portfolio-info">
+                                <h5><a href="#">Alarm Clock</a></h5>
+                                <span>alarm clock android app</span>
+                            </div>
+                            <div class="portfolio-img">
+                                <img src="https://www.cnet.com/a/img/resize/324488b838e175083e6ee2cdf5741d5fccd7106d/hub/2022/10/18/31d3da21-123a-4908-885a-e26c5df60fb9/clock-time-countdown-0954.jpg?auto=webp&fit=crop&height=900&width=1200" title="" alt="">
+                                <div class="portfolio-icon d-flex align-items-end justify-content-center">
+                                    <a href="https://www.cnet.com/a/img/resize/324488b838e175083e6ee2cdf5741d5fccd7106d/hub/2022/10/18/31d3da21-123a-4908-885a-e26c5df60fb9/clock-time-countdown-0954.jpg?auto=webp&fit=crop&height=900&width=1200" class="px-btn white gallery-link">
+                                        <span>View</span>
+                                        <i class="arrow"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- grid item -->
+                </div>
+                <!-- portfolio-content -->
+            </div>
+        </section>
+        <!-- End Portfolio -->
+        <!-- Blog -->
+        <!-- <section class="section gray-bg" id="blog">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7">
+                        <div class="section-title text-center">
+                            <h2>Latest News</h2>
+                            <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="blog-grid">
+                            <div class="blog-img">
+                                <div class="date">
+                                    <span>04</span>
+                                    <label>FEB</label>
+                                </div>
+                                <a href="blog.html">
+                                    <img src="static/img/blog-1.jpg" title="" alt="">
+                                </a>
+                            </div>
+                            <div class="blog-info">
+                                <h5><a href="blog.html">Prevent 75% of visitors from google analytics</a></h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <div class="btn-bar">
+                                    <a href="blog.html" class="px-btn-arrow">
+                                        <span>Read More</span>
+                                        <i class="arrow"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="blog-grid">
+                            <div class="blog-img">
+                                <div class="date">
+                                    <span>04</span>
+                                    <label>FEB</label>
+                                </div>
+                                <a href="blog.html">
+                                    <img src="static/img/blog-2.jpg" title="" alt="">
+                                </a>
+                            </div>
+                            <div class="blog-info">
+                                <h5><a href="blog.html">Prevent 75% of visitors from google analytics</a></h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <div class="btn-bar">
+                                    <a href="blog.html" class="px-btn-arrow">
+                                        <span>Read More</span>
+                                        <i class="arrow"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="blog-grid">
+                            <div class="blog-img">
+                                <div class="date">
+                                    <span>04</span>
+                                    <label>FEB</label>
+                                </div>
+                                <a href="blog.html">
+                                    <img src="static/img/blog-3.jpg" title="" alt="">
+                                </a>
+                            </div>
+                            <div class="blog-info">
+                                <h5><a href="blog.html">Prevent 75% of visitors from google analytics</a></h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <div class="btn-bar">
+                                    <a href="blog.html" class="px-btn-arrow">
+                                        <span>Read More</span>
+                                        <i class="arrow"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- End Blog --> 
+        <!-- Contact Us -->
+        <section class="section gray-bg" id="contactus">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7">
+                        <div class="section-title text-center">
+                            <h2>Get In Touch</h2>
+                            <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-10 col-lg-9 m-15px-tb">
+                        <div class="contact-form">
+                            <p>If you got any questions please do not hesitate to send us a message.</p>
+                            <form id="contact-form" method="POST">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input name="Name" id="name" placeholder="Name *" class="form-control" type="text">
+                                            <span class="input-focus-effect theme-bg"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input name="Email" id="email" placeholder="Email *" class="form-control" type="email">
+                                            <span class="input-focus-effect theme-bg"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <input name="Subject" id="subject" placeholder="Subject *" class="form-control" type="text">
+                                            <span class="input-focus-effect theme-bg"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <textarea name="message" id="message" placeholder="Your message *" rows="3" class="form-control"></textarea>
+                                            <span class="input-focus-effect theme-bg"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 text-center">
+                                        <div class="send">
+                                            <button class="px-btn theme" onclick="send_mail()" type="button" value="Send"><span>Contact Us</span> <i class="arrow"></i></button>
+                                        </div>
+                                        <span id="suce_message" class="text-success" style="display: none">Message Sent Successfully</span>
+                                        <span id="err_message" class="text-danger" style="display: none">Message Sending Failed</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center justify-content-center">
+                    <div class="col-lg-4 m-15px-tb">
+                        <div class="contact-name">
+                            <div class="icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <h5>Mail</h5>
+                            <p>ap8424856@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 m-15px-tb">
+                        <div class="contact-name">
+                            <div class="icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <h5>Phone</h5>
+                            <p>Phone: +91 8424856053</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </section>
+        <!-- End Contact Us -->
     </main>
-
-
-    <script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.umd.min.js"></script>
+    <!-- main end -->
+    <!-- Footer-->
+    <!-- <footer class="footer white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 m-10px-tb">
+                    <div class="nav justify-content-center justify-content-md-start">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 m-10px-tb text-center text-md-right">
+                    <p>© 2020 copyright all right reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer> -->
+    <!-- footer End -->
+    <!-- jquery -->
+    <script src="static/js/jquery-3.2.1.min.js"></script>
+    <script src="static/js/jquery-migrate-3.0.0.min.js"></script>
+    <!-- end jquery -->
+    <!-- appear -->
+    <script src="static/plugin/appear/jquery.appear.js"></script>
+    <!-- end appear -->
+    <!--bootstrap-->
+    <script src="static/plugin/bootstrap/js/popper.min.js"></script>
+    <script src="static/plugin/bootstrap/js/bootstrap.js"></script>
+    <!--end bootstrap-->
+    <!-- End -->
+    <!-- custom js -->
+    <script src="static/js/custom.js"></script>
+    <script src="static/js/mail_send.js"></script>
+    <!-- end -->
+    <!-- end body -->
 </body>
 
 </html>
